@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "dependencies": {},
-  "scripts": {
-    "test": "jest --watch"
-  },
-  "devDependencies": {
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "node-fetch": "^2.6.1",
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "babel-jest": "^27.0.2",
     "jest": "27.0.4",
     "parcel-bundler": "1.12.5"
   },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {},
   "keywords": []
 }
