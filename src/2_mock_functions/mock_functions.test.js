@@ -4,7 +4,19 @@ describe('forEach function', () => {
   const mockCallback = jest.fn((x) => 42 + x);
   forEach([0, 1], mockCallback);
 
+  /*   beforeAll(() => {
+    jest.clearAllMocks();
+  }); */
+
+  /*   afterAll(() => {
+    jest.clearAllMocks();
+  }); */
+
   /* beforeEach(() => {
+    jest.clearAllMocks();
+  }); */
+
+  /*  afterEach(() => {
     jest.clearAllMocks();
   }); */
 
