@@ -12,5 +12,3 @@ test('async test with async_await', async () => {
   const data = await promise;
   expect(data).toEqual(person);
 });
-
-// async_await
